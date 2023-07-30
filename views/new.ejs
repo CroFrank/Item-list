@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/equipment/new" method="POST">
+        <label for="equipment">Product:</label>
+        <input type="text" id="equipment" name="equipment[name]" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="equipment[price]"><br><br>
+
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+
+</html>

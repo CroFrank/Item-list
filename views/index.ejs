@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Index page- Equipment list</h1>
+    <ul>
+        <% for (let equip of equipment) { %>
+            <li>
+                <a href="/equipment/<%= equip._id %>">
+                    <%= equip.name %> - <%= equip.price %>€
+                </a> <br>
+                <form action="/equipment/<%= equip._id %>?_method=DELETE" method="POST">
+                    <button>Delete</button>
+                </form>
+                <hr>
+            </li>
+            <% } %>
+    </ul>
+
+    <h4><a href="/equipment/new">Make new</a></h4>
+
+</body>
+
+</html>

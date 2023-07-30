@@ -1,0 +1,1 @@
+module.exports = { bike: 700, sleepingBag: 200, hammock: 50, helmet: 100 }

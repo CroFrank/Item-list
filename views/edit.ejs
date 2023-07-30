@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/equipment/<%= equip._id %>?_method=PUT" method="POST">
+        <label for="equipment">Product:</label>
+        <input type="text" id="equipment" name="equipment[name]" value="<%= equip.name %>" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="equipment[price]" value="<%= equip.price %>" required><br><br>
+
+        <input type="submit" value="Edit Product">
+    </form>
+    <br>
+    <a href="/equipment">All equipment</a>
+</body>
+
+</html>
