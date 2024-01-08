@@ -5,10 +5,14 @@ I made this very simple CRUD app
 
 ### I used:
 
-Express.js as a framework for Node.js,
-Mongoose for modeling data,
-EJS for templating
-No styling applied
+- Express.js as a framework for Node.js,
+- Mongoose for modeling data,
+- EJS for templating
+- No styling applied
+
+### About app
+
+Here you can create items and give them a price, after that you have option to see all items and manage them whether you want to update or delete them.
 
 ### Try out
 
