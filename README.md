@@ -29,6 +29,15 @@ Here are the steps:
 1. start MongoDB daemon on your machine with "mongod" command in CLI
 1. in another window of CLI run "npm start" and go to localhost:8080
 
+### Contributing
+
+Contributions are welcome! If you find any issues or want to enhance the application, feel free to open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License.
+You can do whatever you want with this code.
+
 ### Contact
 
 If you have any questions feel free to ask [here](https://www.weblifesupport.com/)
