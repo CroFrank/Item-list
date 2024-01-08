@@ -25,7 +25,7 @@ Here are the steps:
 
 1. use "git clone" to get this repo on your machine
 1. "npm i" to install all dependencies
-1. from root directory run "npm node seeds/equipment.js" to get first few items in your DB
+1. "npm run items" to get first few items in your DB
 1. start MongoDB daemon on your machine with "mongod" command in CLI
 1. in another window of CLI run "npm start" and go to localhost:8080
 
