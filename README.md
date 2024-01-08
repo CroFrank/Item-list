@@ -5,13 +5,26 @@ I made this very simple CRUD app
 
 ### I used:
 
-Express.js ass a framework for Node.js,
+Express.js as a framework for Node.js,
 Mongoose for modeling data,
 EJS for templating
+No styling applied
 
 ### Try out
 
-App is not hosted anywhere and if you want to run it you need to have installed localy:
+App is not hosted anywhere and if you want to run it you need to have installed locally:
 
 - Node
 - MongoDB
+
+Here are the steps:
+
+1. use "git clone" to get this repo on your machine
+1. "npm i" to install all dependencies
+1. from root directory run "npm node seeds/equipment.js" to get first few items in your DB
+1. start MongoDB daemon on your machine with "mongod" command in CLI
+1. in another window of CLI run "npm start" and go to localhost:8080
+
+### Contact
+
+If you have any questions feel free to ask [here](https://www.weblifesupport.com/)
